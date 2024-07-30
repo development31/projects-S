@@ -15,6 +15,7 @@ import Home from './components/Home/Home';
 import Profile from './components/Profile/Profile';
 import ProfileAvatar from './components/ProfileAvatar/ProfileAvatar';
 import ProfileBody from './components/ProfileBody/ProfileBody';
+import PandQ from './components/PandQ/PandQ';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
 // Layout Component
@@ -51,6 +52,7 @@ const Routing = () => {
               <Route path="/profile" element={<Profile />} />
               <Route path="/edit-profile-avatar" element={<ProfileAvatar />} />
               <Route path="/edit-profile-body" element={<ProfileBody />} />
+              <Route path="/pq" element={<PandQ />} />
               <Route path="*" element={<PageNotFound />} />
         </Route>
 
