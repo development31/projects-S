@@ -1,5 +1,7 @@
 import React from 'react'
 import './ProfileAvatar.scss'
+import {Link} from 'react-router-dom'
+
 import girl from './img/girl.png'
 import fullAvatar from './img/full-avatar.png'
 import arrow from './img/arrow.png'

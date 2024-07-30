@@ -1,5 +1,7 @@
 import React from 'react'
 import './PandQ.scss'
+import {Link} from 'react-router-dom'
+
 import girl from './img/girl.png'
 import fullAvatar from './img/full-avatar.png'
 import arrow from './img/arrow.png'
@@ -12,27 +14,27 @@ import five from './img/five.png'
 
 import six from './img/six.png'
 
-function Button(props){
-  const {text, style} = props;
+function Button(props) {
+  const { text, style } = props;
 
   return (
-  <>
-  <button className={`button ${style}`}>
-    <p>{text}</p>
-  </button>
-  </>
+    <>
+      <button className={`pq-button ${style}`}>
+        <p>{text}</p>
+      </button>
+    </>
   )
 }
 
-function BigButton(props){
-  const {text, style} = props;
+function BigButton(props) {
+  const { text, style } = props;
 
   return (
-  <>
-  <button className={`big-button ${style}`}>
-    <p>{text}</p>
-  </button>
-  </>
+    <>
+      <button className={`pq-big-button ${style}`}>
+        <p>{text}</p>
+      </button>
+    </>
   )
 }
 
@@ -72,9 +74,9 @@ function PandQ() {
           </div>
 
           <div className='three'>
-            <Button text='Yes'/>
-            <Button text='No'/>
-            <Button text='Sometimes' style='colored'/>
+            <Button text='Yes' />
+            <Button text='No' />
+            <Button text='Sometimes' style='colored' />
           </div>
         </div>
 
@@ -89,8 +91,8 @@ function PandQ() {
           </div>
 
           <div className='three'>
-            <Button text='Yes' style='colored'/>
-            <Button text='No'/>
+            <Button text='Yes' style='colored' />
+            <Button text='No' />
             <Button text='Sometimes' />
           </div>
         </div>
@@ -107,7 +109,7 @@ function PandQ() {
 
           <div className='three'>
             <Button text='Yes' />
-            <Button text='No' style='colored'/>
+            <Button text='No' style='colored' />
             <Button text='Sometimes' />
           </div>
         </div>
@@ -123,8 +125,8 @@ function PandQ() {
           </div>
 
           <div className='three'>
-            <Button text='Yes' style='colored'/>
-            <Button text='No'/>
+            <Button text='Yes' style='colored' />
+            <Button text='No' />
             <Button text='Sometimes' />
           </div>
         </div>
@@ -140,14 +142,14 @@ function PandQ() {
           </div>
 
           <div className='three'>
-            <Button text='Yes'/>
-            <Button text='No'/>
-            <Button text='Sometimes' style='colored'/>
+            <Button text='Yes' />
+            <Button text='No' />
+            <Button text='Sometimes' style='colored' />
           </div>
         </div>
 
         <div className='pq4'>
-        <div className='one'>
+          <div className='one'>
             <p>What’s your favourotite brand?</p>
           </div>
 
@@ -164,8 +166,8 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Chic' style='colored'/>
-            <Button text='Shabby'/>
+            <Button text='Chic' style='colored' />
+            <Button text='Shabby' />
           </div>
         </div>
 
@@ -176,9 +178,9 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Yes'/>
-            <Button text='No'/>
-            <Button text='Sometimes' style='colored'/>
+            <Button text='Yes' />
+            <Button text='No' />
+            <Button text='Sometimes' style='colored' />
           </div>
         </div>
 
@@ -189,9 +191,9 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Yes'/>
-            <Button text='No'/>
-            <Button text='Sometimes' style='colored'/>
+            <Button text='Yes' />
+            <Button text='No' />
+            <Button text='Sometimes' style='colored' />
           </div>
         </div>
 
@@ -202,9 +204,9 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Yes'/>
-            <Button text='No'/>
-            <Button text='Sometimes' style='colored'/>
+            <Button text='Yes' />
+            <Button text='No' />
+            <Button text='Sometimes' style='colored' />
           </div>
         </div>
 
@@ -215,9 +217,9 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Color'/>
-            <Button text='Kumas'/>
-            <Button text='Price' style='colored'/>
+            <Button text='Color' />
+            <Button text='Kumas' />
+            <Button text='Price' style='colored' />
             <Button text='Brand' />
             <Button text='Style' />
           </div>
@@ -230,9 +232,9 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Luxury Brands'/>
-            <Button text='Eco-Friendly'/>
-            <Button text='Inditex-Brands' style='colored'/>
+            <Button text='Luxury Brands' />
+            <Button text='Eco-Friendly' />
+            <Button text='Inditex-Brands' style='colored' />
           </div>
         </div>
 
@@ -243,13 +245,13 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Classic'/>
-            <Button text='Dramatic' style='colored'/>
+            <Button text='Classic' />
+            <Button text='Dramatic' style='colored' />
             <Button text='Elegant' />
-            <Button text='Modern'/>
-            <Button text='Trendy'/>
-            <Button text='Others'/>
-            
+            <Button text='Modern' />
+            <Button text='Trendy' />
+            <Button text='Others' />
+
           </div>
         </div>
 
@@ -260,11 +262,11 @@ function PandQ() {
 
 
           <div className='three'>
-            <BigButton text="I don't know my body & i can't dress accordingly."/>
-            <BigButton text='I don’t know my style & i find it confusing.' style='colored'/>
+            <BigButton text="I don't know my body & i can't dress accordingly." />
+            <BigButton text='I don’t know my style & i find it confusing.' style='colored' />
             <BigButton text='I am having trouble choosing shoes.' />
-            
-            
+
+
           </div>
         </div>
 
@@ -275,11 +277,11 @@ function PandQ() {
 
 
           <div className='three'>
-            <BigButton text='Well Maintained, Clean, Simple'/>
-            <BigButton text='Confused' style='colored'/>
+            <BigButton text='Well Maintained, Clean, Simple' />
+            <BigButton text='Confused' style='colored' />
             <BigButton text='Self-Confident' />
-            <BigButton text='Striking'/>
-            
+            <BigButton text='Striking' />
+
           </div>
         </div>
 
@@ -290,12 +292,12 @@ function PandQ() {
 
 
           <div className='three'>
-            <BigButton text='Jeans'/>
-            <BigButton text='Sneakers' style='colored'/>
+            <BigButton text='Jeans' />
+            <BigButton text='Sneakers' style='colored' />
             <BigButton text='T-Shirts' />
-            <BigButton text='Dress'/>
-            <BigButton text='Others'/>
-            
+            <BigButton text='Dress' />
+            <BigButton text='Others' />
+
           </div>
         </div>
 
@@ -306,19 +308,19 @@ function PandQ() {
 
 
           <div className='three'>
-            <Button text='Black'/>
-            <Button text='White' style='colored'/>
+            <Button text='Black' />
+            <Button text='White' style='colored' />
             <Button text='Gray' />
-            <Button text='Red'/>
-            <Button text='Orange'/>
-            <Button text='Yellow'/>
-            <Button text='Green'/>
-            <Button text='Light Blue'/>
-            <Button text='Dark Blue'/>
-            <Button text='Purple'/>
-            <Button text='Pink'/>
-            <Button text='Brown'/>
-            
+            <Button text='Red' />
+            <Button text='Orange' />
+            <Button text='Yellow' />
+            <Button text='Green' />
+            <Button text='Light Blue' />
+            <Button text='Dark Blue' />
+            <Button text='Purple' />
+            <Button text='Pink' />
+            <Button text='Brown' />
+
           </div>
         </div>
 
@@ -329,27 +331,26 @@ function PandQ() {
 
 
           <div className='three'>
-            <BigButton text='Clear up confusion'/>
-            <BigButton text='Learning the rules I don’t know' style='colored'/>
+            <BigButton text='Clear up confusion' />
+            <BigButton text='Learning the rules I don’t know' style='colored' />
             <BigButton text='To be able to shop more conveniently ' />
-            <BigButton text='Harmony & balancing'/>
-            
+            <BigButton text='Harmony & balancing' />
+
           </div>
         </div>
 
-
         <div className="border-container">
-        <div className="border-fade-left"></div>
-        <div className="border-dark"></div>
-        <div className="border-fade-right"></div>
-      </div>
+          <div className="border-fade-left"></div>
+          <div className="border-dark"></div>
+          <div className="border-fade-right"></div>
+        </div>
 
         <div className='pq7'>
           <div className='section'>
-            
+
             <div className='buttons'>
-              <Button text='Update' style='colored'/>
-              <Button text='Cancel'/>
+              <Button text='Update' style='colored' />
+              <Button text='Cancel' />
 
 
 
@@ -360,7 +361,7 @@ function PandQ() {
 
 
 
-        
+
       </div>
 
     </>

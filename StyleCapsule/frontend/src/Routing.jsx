@@ -17,6 +17,9 @@ import ProfileAvatar from './components/ProfileAvatar/ProfileAvatar';
 import ProfileBody from './components/ProfileBody/ProfileBody';
 import PandQ from './components/PandQ/PandQ';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import FullAvatar from './components/FullAvatar/FullAvatar';
+import Body from './components/Body/Body';
+import Appointment from './components/Appointment/Appointment';
 
 // Layout Component
 const MainLayout = () => {
@@ -53,6 +56,9 @@ const Routing = () => {
               <Route path="/edit-profile-avatar" element={<ProfileAvatar />} />
               <Route path="/edit-profile-body" element={<ProfileBody />} />
               <Route path="/pq" element={<PandQ />} />
+              <Route path="/full-avatar" element={<FullAvatar />} />
+              <Route path="/body" element={<Body />} />
+              <Route path="/scheduled-appointment" element={<Appointment />} />
               <Route path="*" element={<PageNotFound />} />
         </Route>
 
