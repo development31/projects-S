@@ -53,9 +53,11 @@ function PandQ() {
             </div>
 
           </div>
+          <Link to="/full-avatar">
           <div className='right'>
             <img src={fullAvatar} alt="" />
           </div>
+          </Link>
         </div>
 
         <div className='pq2'>

@@ -21,10 +21,12 @@ function FullAvatar() {
       </div>
       
       <div className='right'>
+        <Link to='/body'>
         <button>
           <img src={two} alt="" />
           Edit Avatar
         </button>
+        </Link>
         <button>
           <img src={three} alt="" />
         </button>

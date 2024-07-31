@@ -24,7 +24,7 @@ function Profile() {
         </div>
       </div>
       <div className="profile-actions">
-        <Link to='' style={{textDecoration: "none"}}>
+        <Link to='/edit-profile-avatar' style={{textDecoration: "none"}}>
         <button className="action-button">
           <FaUserEdit className="icon" /> Edit Profile <IoIosArrowForward className="arrow-icon" />
         </button>
