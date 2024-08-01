@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProfileAvatar.scss'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import girl from './img/girl.png'
 import fullAvatar from './img/full-avatar.png'
@@ -21,9 +21,9 @@ function ProfileAvatar() {
 
           </div>
           <Link to="/full-avatar">
-          <div className='right'>
-            <img src={fullAvatar} alt="" />
-          </div>
+            <div className='right'>
+              <img src={fullAvatar} alt="" />
+            </div>
           </Link>
         </div>
 
@@ -327,10 +327,10 @@ function ProfileAvatar() {
         </div>
 
         <div className="border-container">
-        <div className="border-fade-left"></div>
-        <div className="border-dark"></div>
-        <div className="border-fade-right"></div>
-      </div>
+          <div className="border-fade-left"></div>
+          <div className="border-dark"></div>
+          <div className="border-fade-right"></div>
+        </div>
 
         <div className='avatar6'>
           <div className='section'>

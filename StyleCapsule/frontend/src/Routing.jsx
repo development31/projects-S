@@ -10,6 +10,7 @@ import ForgotPassword from './components/ForgotPassword/ForgotPassword';
 import RecoveryCode from './components/RecoveryCode/RecoveryCode';
 import ResetPassword from './components/ResetPassword/ResetPassword';
 
+import ChangePassword from './components/ChangePassword/ChangePassword';
 import LandingPage from './components/LandingPage/LandingPage';
 import Home from './components/Home/Home';
 import Profile from './components/Profile/Profile';
@@ -20,6 +21,8 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import FullAvatar from './components/FullAvatar/FullAvatar';
 import Body from './components/Body/Body';
 import Appointment from './components/Appointment/Appointment';
+import MarketPlace from './components/MarketPlace/MarketPlace';
+import SettingsSecurity from './components/SettingsSecurity/SettingsSecurity';
 
 // Layout Component
 const MainLayout = () => {
@@ -46,20 +49,24 @@ const Routing = () => {
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/recovery-code" element={<RecoveryCode />} />
         <Route path="/reset-password" element={<ResetPassword />} />
-        
+
 
         {/* Routes that require Navbar and Footer */}
         <Route element={<MainLayout />} >
-              
-              <Route path="/home" element={<Home />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/edit-profile-avatar" element={<ProfileAvatar />} />
-              <Route path="/edit-profile-body" element={<ProfileBody />} />
-              <Route path="/pq" element={<PandQ />} />
-              <Route path="/full-avatar" element={<FullAvatar />} />
-              <Route path="/body" element={<Body />} />
-              <Route path="/scheduled-appointment" element={<Appointment />} />
-              <Route path="*" element={<PageNotFound />} />
+
+          <Route path="/change-password" element={<ChangePassword />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/edit-profile-avatar" element={<ProfileAvatar />} />
+          <Route path="/edit-profile-body" element={<ProfileBody />} />
+          <Route path="/pq" element={<PandQ />} />
+          <Route path="/full-avatar" element={<FullAvatar />} />
+          <Route path="/body" element={<Body />} />
+          <Route path="/scheduled-appointment" element={<Appointment />} />
+          <Route path="/market-place" element={<MarketPlace />} />
+          <Route path="/settings-security" element={<SettingsSecurity />} />
+          <Route path="*" element={<PageNotFound />} />
+
         </Route>
 
       </Routes>
