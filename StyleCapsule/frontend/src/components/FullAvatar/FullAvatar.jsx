@@ -11,7 +11,7 @@ function FullAvatar() {
   return (
     <>
     <div className='full-avatar'>
-      <div className='left'>
+      <div className='full-avatar1'>
         <div className='top'>
         <img src={one} alt="" />
         </div>
@@ -20,13 +20,14 @@ function FullAvatar() {
         </div>
       </div>
       
-      <div className='right'>
+      <div className='full-avatar2'>
         <Link to='/body'>
         <button>
           <img src={two} alt="" />
           Edit Avatar
         </button>
         </Link>
+
         <button>
           <img src={three} alt="" />
         </button>

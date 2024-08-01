@@ -9,9 +9,11 @@ function Navbar() {
 
       <div className='top'>
         <div className='top1'>
+          <Link to='/landing-page' style={{textDecoration: "none", color: "black"}}>
           <div className='left'>
             <p>Style Capsule</p>
           </div>
+          </Link>
           {/* <div className='center'>
             <p>Home</p>
           </div> */}

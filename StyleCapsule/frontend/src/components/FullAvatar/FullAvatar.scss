@@ -1,13 +1,14 @@
 .full-avatar {
-  margin: 7rem auto;
+  margin: 7rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 15rem;
 
-  .left{
-    padding: 0;
-    // margin-left: auto;
+  .full-avatar1{
+    display: flex;
+    justify-content: end;
+    margin: 0;
 
     .top{
       width: 70%;
@@ -24,24 +25,25 @@
       width: 50%;
       position: absolute;
       top: 95%;
-      left: 6%;
+      left: 17%;
       img{
         width: 100%;
       }
     }
   }
 
-  .right{
+  .full-avatar2{
     padding: 0;
-    // margin-right: 3rem;
+    margin-right: 12rem;
     // margin-right: auto;
     // text-align: center;
+    
 
     button{
-      margin: 0;
+      // margin: 0;
       background-color: black;
       color: white;
-      width: 80%;
+      width: 70%;
       padding: 0.7rem 1rem;
       border-radius: 3rem;
       margin-bottom: 1rem;
