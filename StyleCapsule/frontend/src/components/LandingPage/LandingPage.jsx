@@ -15,7 +15,6 @@ import seven from './img/seven.png'
 import eight from './img/eight.png'
 import nine from './img/nine.png'
 import ten from './img/ten.png'
-// import four from './img/four.png'
 
 function LandingPage() {
   return (
